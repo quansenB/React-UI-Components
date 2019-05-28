@@ -2,3 +2,65 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.app{
+  border: 0.05rem black solid;
+  padding: 1rem;
+  max-width: 60%;
+  margin: 0 auto
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.name{
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.tag{
+  margin-right: 0.5rem;
+  color:grey;
+  font-size: 0.8 em;
+}
+
+.date{
+  color:grey;
+  font-size: 0.8 em;
+}
+
+.img{
+  width: 20%;
+  height: 20%;
+}
+
+.headerBox{
+  margin-left: 0.5rem;
+}
+
+.subtitle{
+  margin-top: 0.5rem;
+}
+
+.content{
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.footer{
+  margin-left: 5.5%;
+  margin-top: 1%;
+}
+
+.bannerImgDiv{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bannerImg{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
