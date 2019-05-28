@@ -2,65 +2,75 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
-.app{
-  border: 0.05rem black solid;
-  padding: 1rem;
-  max-width: 60%;
-  margin: 0 auto
+.app {
+  border   : 0.05rem black solid;
+  padding  : 1rem;
+  max-width: 40%;
+  margin   : 0 auto
 }
 
-.header{
-  display: flex;
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display       : flex;
   flex-direction: row;
 }
 
-.name{
+.name {
   margin-right: 0.5rem;
-  font-weight: 600;
+  font-weight : 600;
 }
 
-.tag{
+.tag {
   margin-right: 0.5rem;
-  color:grey;
+  color       : grey;
+  font-size   : 0.8 em;
+}
+
+.date {
+  color    : grey;
   font-size: 0.8 em;
 }
 
-.date{
-  color:grey;
-  font-size: 0.8 em;
+.img {
+  width : 100%;
+  height: auto;
 }
 
-.img{
-  width: 20%;
-  height: 20%;
+.imgDiv {
+  max-width: 10%;
 }
 
-.headerBox{
+.headerBox {
   margin-left: 0.5rem;
+  max-width  : 100%;
 }
 
-.subtitle{
+.subtitle {
   margin-top: 0.5rem;
-}
-
-.content{
-  margin-left: 15%;
-  margin-top: 1%;
-}
-
-.footer{
-  margin-left: 5.5%;
-  margin-top: 1%;
-}
-
-.bannerImgDiv{
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
 }
 
-.bannerImg{
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
+.content {
+  margin-left: 10%;
+  margin-top : 1%;
+}
+
+.bannerImgDiv {
+  max-width : 100%;
+  max-height: 100%;
+}
+
+.bannerImg {
+  max-width        : 100%;
+  max-height       : 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.cardContent{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
