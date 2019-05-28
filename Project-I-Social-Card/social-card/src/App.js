@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import "Project-I-Social-Card\social-card\src\components\HeaderComponents\HeaderContainer.js";
 
 const App = () => {
   return (
@@ -22,7 +21,5 @@ const App = () => {
   );
 };
 
-const element = <HeaderContainer/>
 
-ReactDOM.render(element, document.getElementById('root'));
 export default App;
