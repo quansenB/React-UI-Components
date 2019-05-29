@@ -4,6 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="container">
+      <span>Hello 12345</span>
       <Field4 className="4 black 0" width="4" color="black" content="0"/>
       <Field3 className="3 white clear" width="3" color="white" content="clear"/>
       <Field1 classname="1 red /" width="1" color="red" content="/"/>
